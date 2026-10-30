@@ -1,0 +1,6 @@
+{
+  "name": "Past Tense Playground",
+  "description": "Let's Learn Simple Past Tense Through Fun Games! Aplikasi web edukasi interaktif untuk pembelajaran Bahasa Inggris kelas IX SMP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

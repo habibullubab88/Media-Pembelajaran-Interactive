@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-sniglet {
+    font-family: 'Sniglet', 'Fredoka', cursive;
+  }
+}
+
+/* Custom 3D Button Utility for game feel */
+.btn-game-primary {
+  @apply bg-amber-400 hover:bg-amber-300 text-amber-950 font-bold border-b-4 border-amber-600 active:border-b-0 active:translate-y-1 transition-all rounded-2xl shadow-md;
+}
+
+.btn-game-blue {
+  @apply bg-sky-500 hover:bg-sky-400 text-white font-bold border-b-4 border-sky-700 active:border-b-0 active:translate-y-1 transition-all rounded-2xl shadow-md;
+}
+
+.btn-game-purple {
+  @apply bg-indigo-500 hover:bg-indigo-400 text-white font-bold border-b-4 border-indigo-700 active:border-b-0 active:translate-y-1 transition-all rounded-2xl shadow-md;
+}
+
+.btn-game-green {
+  @apply bg-emerald-500 hover:bg-emerald-400 text-white font-bold border-b-4 border-emerald-700 active:border-b-0 active:translate-y-1 transition-all rounded-2xl shadow-md;
+}
+
+.card-game {
+  @apply bg-white rounded-3xl border-3 border-slate-200/90 shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:shadow-[0_12px_35px_rgb(0,0,0,0.12)] transition-all;
+}
+
+/* Card 3D Flip style */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
